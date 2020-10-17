@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -8,14 +7,10 @@ export default function Home() {
       <Head>
         <title>Create Next</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
       <main className={styles.main}>
-        Hello World!<br />
-        { process.env.NODE_ENV }<br />
-        { process.env.customKey }
-        <Link href="/hoge" prefetch={false}>ほげげげ</Link>
+        ほげ!
       </main>
     </div>
   )
